@@ -21,6 +21,7 @@ ifeq ($(TARGET_DEVICE),bullhead)
 include $(CLEAR_VARS)
 LOCAL_MODULE := datastatusnotification
 LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := datastatusnotification/datastatusnotification.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
@@ -30,6 +31,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := ims
 LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := ims/ims.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
@@ -39,6 +41,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := HiddenMenu
 LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := HiddenMenu/HiddenMenu.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
@@ -48,6 +51,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := RCSBootstraputil
 LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := RCSBootstraputil/RCSBootstraputil.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
@@ -57,6 +61,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := RcsImsBootstraputil
 LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := RcsImsBootstraputil/RcsImsBootstraputil.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
@@ -66,6 +71,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := TimeService/TimeService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_CLASS := APPS
@@ -75,6 +81,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := Tycho
 LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := lge
 LOCAL_SRC_FILES := Tycho/Tycho.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
